@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="torre.png" type="image/x-icon">
+    <title>Tamagotchi | Letícia</title>
+</head>
+<body>
+    <div>
+        <img src="imagem.png" alt="bichinho" width="200px">
+    </div>
+    <div class="tamagotchi">
+        <div class="status">
+            <p>Name: <span id="name">Tamagotchi</span></p>
+            <p>Fome: <span id="fome">0</span></p>
+            <p>Felicidade: <span id="felicidade">100</span></p>
+            <p>Estado: <span id="estado">Feliz</span></p>
+            <p>Emoji: <span id="emoji">😀</span></p>
+        </div>
+        <div class="buttons">
+            <button onclick="alimentar()">Alimentar</button>
+            <button onclick="darCarinho()">Dar Carinho</button>
+            <button onclick="trocarRoupa()">Trocar de Roupa</button>
+            <button onclick="dormir()">Dormir</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

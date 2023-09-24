@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #D0E7D2;
+}
+
+.tamagotchi {
+    background-color: #B0D9B1;
+    border: 2px solid #79AC78;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+.status p {
+    margin: 5px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+img{
+    margin-top: 60px;
+}
